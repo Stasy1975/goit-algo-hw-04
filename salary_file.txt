@@ -1,0 +1,13 @@
+Olena Kovalenko,2750
+Maksym Bondarenko,3400
+Iryna Shevchenko,2150
+Andrii Melnyk,4800
+
+Sofiia Tkachenko,3100
+Dmytro Kravchenko,2950
+Kateryna Moroz,4250
+Bohdan Savchenko,1850
+Maria Koval,3650
+Oleksii Petrenko,2500
+Yuliia Marchenko,3900
+Taras Lysenko,4700
