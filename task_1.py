@@ -1,5 +1,5 @@
-def total_salary(path: str) -> tuple[int, float]:
-    total = 0
+def total_salary(path: str) -> tuple[float, float]:
+    total = 0.0
     developers_count = 0
 
     try:
@@ -10,16 +10,16 @@ def total_salary(path: str) -> tuple[int, float]:
 
                 name, salary = line.strip().split(",")
 
-                total += int(salary)
+                total += float(salary)
                 developers_count += 1
 
     except FileNotFoundError:
         print(f"Файл не знайдено: {path}")
-        return 0, 0.0
+        return 0.0, 0.0
 
     except (ValueError, OSError) as error:
         print(f"Помилка обробки файлу: {error}")
-        return 0, 0.0
+        return 0.0, 0.0
 
     average = total / developers_count if developers_count else 0.0
 
